@@ -1,0 +1,183 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+    /* background:linear-gradient(rgb(76, 9, 121),rgb(45, 45, 146),skyblue); */
+    
+
+
+
+.form{
+   
+    height: 700px;
+    width: 500px;
+    background: url( ..//img/bannar.png);
+    margin: 200px auto;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+h1{
+    font-size: 34px;
+    color: rgb(147, 111, 206);
+
+    position: absolute;
+    top:140px;
+    left: auto;
+}
+.form_conten{
+    position: absolute;
+    top:400px;
+    left: auto;
+
+}
+label{
+    color: rgb(126, 197, 202);
+    font-size: 30px;
+}
+input{
+    background-color: rgb(167, 184, 194);
+    border: none;
+    box-sizing: border-box;
+    border-radius: 40px;
+    height: 40px;
+    width: 200px;
+    padding: 0 10px;
+}
+
+.b1{
+    position: absolute;
+    bottom: 150px;
+    left: 300px;
+    color: rgb(73, 18, 117);
+    border-radius:25px;
+    height: 40px;
+    width: 70px;
+    background-color: aliceblue;
+    
+
+}
+.b2{
+    position: absolute;
+    bottom: 160px;
+    left: 160px;
+    color: rgb(73, 18, 117);
+    border-radius: 25px;
+    height: 30px;
+    width: 50px;
+    background-color: aliceblue;
+}
+.form1{
+   
+    height: 700px;
+    width: 500px;
+    background:linear-gradient(rgb(145, 205, 89),rgb(195, 24, 242) ,rgb(7, 187, 252));
+    margin: 200px auto;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all linear .3s;
+    
+}
+.form1:hover{
+    box-shadow: 2px 2px 30px gray;
+    transition: all linear.3s;
+}
+.form1 h1{
+    font-size: 34px;
+    color: rgb(253, 253, 254);
+    font-family: monospace;
+    text-transform: uppercase;
+    
+    position: absolute;
+    top:110px;
+    left: auto;
+    transition: all linear .3s;
+}
+.form1 h1:hover{
+    color: rgb(248, 153, 21);
+    transition: all linear .3s;
+}
+.form_conten1{
+    position: absolute;
+    top:400px;
+    left: auto;
+
+}
+  label{
+    color: rgb(248, 252, 252);
+    font-size: 22px;
+    font-size: 22px;
+    font-family: monospace;
+    
+
+}
+input{ 
+
+    background-color: rgb(96, 98, 100);
+    border: none;
+    box-sizing: border-box;
+    border-radius: 40px;
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+}
+input::placeholder{
+   color: gray;
+   padding-left: 5px;
+}
+ .b1{
+    position: absolute;
+    bottom: 150px;
+    left: 200px;
+    color: rgb(73, 18, 117);
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius:35px;
+    height: 40px;
+    width: 90px;
+    background-color: rgb(69, 76, 82);
+    color: white;
+    transition: all linear .3s;
+}  
+ .b1:hover{
+    text-shadow:1px 1px 10px white;
+    color: orangered;
+    transition: all linear .3s;
+ }
+
+.b2{
+    position: absolute;
+    bottom: 160px;
+    left: 160px;
+    color: rgb(73, 18, 117);
+    border-radius: 25px;
+    height: 40px;
+    width: 80px;
+    background-color: aliceblue;
+}
+.form1 a i{
+    font-size: 24px;
+    padding: 12px 20px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 230px;
+    display: block;
+}

@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* navgetion css part start */
+nav{
+   background: linear-gradient(rgb(48, 98, 134),rgb(110, 2, 110));
+    width: 100%;
+    height:100px ;
+   
+}
+.float{
+    clear: both;
+}
+.logo{
+    width: 30%;
+    float: left;
+    
+    
+}
+.logo img{
+    padding: 5px;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul{
+    float: right;
+    
+}
+.menu ul li{
+    float: left;
+    padding: 25px 20px ;
+}
+.menu ul li a{
+    font-size: 22px;
+    color: white;
+    text-transform: capitalize;
+    
+}
+.menu ul li a:hover{
+    color:rgb(249, 52, 52) ;
+    
+}
+.menu ul li i{
+    padding-right: 10px;
+    font-size: 24px;
+    color: rgba(255, 254, 253, 0.932);
+    
+}
+
+
+
+
+/* navgetion css part end */
+/* Banner part html start */
+
+#banner{
+    background: url(../img/about\ \(8\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.banner_overlay{
+    background-color: rgba(0, 0, 0,0.7);
+    padding: 280px 0;
+}
+.container_content h1{
+    color: white;
+    font-size: 70px;
+    font-family: monospace;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+}
+.container_content h4{
+    color:rgb(226, 88, 29);
+    font-size: 48px;
+    font-family: monospace;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.container_content a{
+    padding: 13px 35px;
+    background-color: rgb(95, 6, 115);
+    color: white;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-left: 15px;
+    transition: all linear 1s;
+}
+.container_content a:hover{
+    box-shadow: 2px 1px 15px rgb(94, 2, 251);
+    background-color: rgb(253, 129, 237);
+    transition: all linear 1s;
+}
+
+/* Banner part html end */
+
+/* about us part html start */
+
+.about_us_heading h4{
+    text-align: center;
+    margin: 40px 0;
+    background-color: rgb(60, 64, 64);
+    padding: 10px 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 35px;
+    color: white;
+    transition: all linear .3s;
+}
+.about_us_heading h4:hover{
+    background-color:rgb(217, 27, 255);
+    transition: all linear .3s;
+}
+.about_content{
+    width: 50%;
+    float: left;
+}
+.about_img{
+    width: 50%;
+    float: left;
+}
+.about_img img{
+    width: 100%;
+
+    
+}
+
+
+.about_content h4{
+    text-align: center;
+   font-size: 32px;
+   font-family: monospace; 
+   text-transform: uppercase;
+   margin-top: 20px;
+   margin-bottom: 10px;
+
+}
+.about_content p{
+    text-align: justify;
+     padding-left: 15px;
+     font-size: 20px;
+     line-height: 35px;
+}
+
+/* about us part html end */
+/*Gallery part html start */
+.gallery_img {
+    width: 32%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    
+}
+.all_img{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2% 1% ;
+    
+}
+.gallery_img img{
+    width: 100%;
+    transition: all linear 1s;
+    
+}
+.gallery_img:hover img{
+    transform: scale(1.3);
+    transition: all linear 1s;
+}
+.gallery_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear 1s;
+    
+}
+.gallery_overlay a{
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color: teal;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+ .gallery_img:hover .gallery_overlay{
+    transform: scale(1); 
+    transition:  all linear 1s;  
+ }
+ /* .middel_img{
+    margin: 0 2%;
+ } */
+ 
+/*Gallery part html end */
+/*service part html start */
+.skle{
+    display: flex;
+    gap: 10px;
+}
+.service_main{
+    width: 23.5%;
+    float: left;
+    background-color: rgb(245, 227, 227);
+    text-align: center;
+    padding: 20px;
+    display: block;
+    transition: all linear .3s;
+}
+    
+
+.service_main:hover{
+    box-shadow: 2px 2px 20px rgb(24, 128, 166);
+    transition: all linear .3s;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    background-color: teal;
+    border-radius: 50%;
+    line-height: 40px;
+    color: white;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    transition: all linear .3s;
+}
+.icon:hover{
+    background-color:orangered;
+    transition: all linear .3s;
+}
+.service_main h4{
+    font-size: 30px;
+    font-family: monospace;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.service_main p{
+    text-align: justify;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+.learn{
+    
+    text-align: center;
+    font-family: monospace;
+    padding: 8px 25px;
+    background-color: teal;
+    border-radius: 30px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: all linear .3s;
+
+}
+.learn:hover{
+    background-color: orangered;
+    transition: all linear .3s;
+}
+
+
+/*service part html end */
+html{
+    scroll-behavior: smooth;
+}
+/* contact part css start */
+.location{
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+}
+.location iframe{
+    width: 100%;
+    height: 200px;
+}
+.foot{
+    margin-top: 30px;
+    height: 100px;
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .8s;
+}
+.foot p{   
+    top: 50;
+    text-align: center;   
+    padding: 10px 10px;
+
+    font-size: 24px;
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+    transition: all linear .8s;
+}
+/* .foot:hover{
+    box-shadow: 1px 1px 10px rgb(19, 35, 3);
+    background-color: rgb(226, 147, 239);
+    color: orangered;
+    transition: all linear .8s;
+} */
+.foot p:hover{
+    color: orangered;
+    transition: all linear .8s;
+}
+
+
+/* page css start */
+.about{
+    background: linear-gradient(white,rgb(111, 174, 174),white);
+    display: block;
+}
+.about p{
+    text-align: justify;
+    font-size: 22px;
+    line-height: 40px;
+    margin: 20px 30px 0;
+}
+.about h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    transition: all linear .3s;
+}
+.about h1:hover{
+    /* background-color: beige; */
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px rgb(230, 24, 5);
+    color: rgb(17, 15, 18);
+    transition: all linear .3s;
+}
+hr{
+    background-color: azure;
+    padding: 20px;
+}
